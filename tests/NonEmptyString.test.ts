@@ -13,10 +13,6 @@ describe('NonEmptyString', () => {
       expect(GraphQLNonEmptyString.parseValue('string')).toBe('string');
     });
 
-    test('parseValue', () => {
-      expect(GraphQLNonEmptyString.parseValue('string')).toBe('string');
-    });
-
     test('parseLiteral', () => {
       expect(
         GraphQLNonEmptyString.parseLiteral(
